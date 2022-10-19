@@ -1,1 +1,1 @@
-# MEGA
+# Moving Average Equipped Gated Attention
