@@ -1,6 +1,28 @@
 # Moving Average Equipped Gated Attention
-- Donald Kane
-- DS-5899
-- 02 November 2022
 
-## Test
+## Introduction
+
+
+
+## EMA Combination
+
+
+
+##
+
+
+
+## 
+
+
+
+## MEGA Blocks
+
+
+
+## Critical Analysis
+
+
+
+## References
+
