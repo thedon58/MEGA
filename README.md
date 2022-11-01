@@ -1,6 +1,6 @@
 # Moving Average Equipped Gated Attention
 
-## Introduction
+### Introduction
 
 
 
