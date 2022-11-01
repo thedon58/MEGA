@@ -1,4 +1,4 @@
 # Moving Average Equipped Gated Attention
-* Donald Kane
+- Donald Kane
 * DS-5899
 * 02 November 2022
