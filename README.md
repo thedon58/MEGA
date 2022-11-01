@@ -4,25 +4,25 @@
 
 
 
-## EMA Combination
+### EMA Combination
 
 
 
-##
+###
 
 
 
-## 
+###
 
 
 
-## MEGA Blocks
+### MEGA Blocks
 
 
 
-## Critical Analysis
+### Critical Analysis
 
 
 
-## References
+### References
 
