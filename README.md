@@ -62,3 +62,4 @@ https://github.com/thedon58/MEGA/blob/main/Code%20Example.ipynb
 ## References
 * https://arxiv.org/abs/2209.10655
 * https://github.com/lucidrains/Mega-pytorch
+* https://twitter.com/violet_zct
