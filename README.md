@@ -48,9 +48,7 @@
 
 ## Code Demonstration
 
-```
 https://github.com/thedon58/MEGA/blob/main/Code%20Example.ipynb
-```
 
 
 ## Critical Analysis
