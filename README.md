@@ -18,7 +18,7 @@
 
 ## MEGA Blocks
 
-https://twitter.com/violet_zct/status/1573319731247206400?s=20&t=pIHQ68C8uewwCbqx5M4hJA
+
 
 ## MEGA with Linear Complexity
 
