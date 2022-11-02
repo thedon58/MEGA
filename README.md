@@ -37,9 +37,10 @@
 
 
 #### Long-Context Sequence Modeling
-* 
-* 
-* 
+* MEGA evaluation on the Long Range Arena (LRA) benchmark (2021)
+* Designed for the purpose of evaluating sequence models under the long-context scenario
+* Input sequences range from 1,000 - 16,000 tokens
+
 ![GitHub Logo](/Images/LRA.png)
 
 
