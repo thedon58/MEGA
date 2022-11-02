@@ -56,6 +56,7 @@
 * MEGA evaluation on the Long Range Arena (LRA) benchmark (2021)
 * Designed for the purpose of evaluating sequence models under the long-context scenario
 * Input sequences range from 1,000 - 16,000 tokens
+* The speed-up comes from switching to single-head attention from multi-head
 
 ![GitHub Logo](/Images/LRA.png)
 
@@ -70,7 +71,7 @@
 ## Questions
 
 1. Why do we want to use MEGA to get a stronger inductive bias?
-2. 
+2. Does this relate to anything you may have seen before?
 
 ## Critical Analysis
 Having its one month anniversary a few days ago, this paper is still very fresh and new to the world of AI/machine learning, but I can see it sticking around for some time. This "hybridization" of the attention layer has already posted some great results in the experiments run in this study where it has a better accuracy than most models and runs much faster and uses less memory than a baseline transformer model.
