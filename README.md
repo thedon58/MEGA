@@ -74,7 +74,7 @@
 
 
 ## Critical Analysis
-Having its one month anniversary a few days ago, this paper is still very fresh and new to the world of AI/machine learning, but I can see it sticking around for some time. This "hybridization" of the attention layer has already posted some great results in the experiments run in this study where it has a better accuracy than most models and runs much faster and uses less memory than a baseline transformer model.
+Having its one month anniversary a few days ago, this paper is still very fresh and new to the world of AI/machine learning, but I can see it sticking around for some time. This "hybridization" of the attention layer has already posted some great results in the experiments run in this study where it has a better accuracy than most models and runs much faster and uses less memory than a baseline transformer model. With more time for the machine learning community to digest this new concept, I believe that MEGA will soon be adopted to speed-up the process while using less memory and saving money.
 ***
 #### Question 2
 - Does this relate to anything you may have seen before? (HINT: GRUs, Flash, S4)
