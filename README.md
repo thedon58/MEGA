@@ -67,12 +67,12 @@ https://github.com/thedon58/MEGA/blob/main/Code%20Example.ipynb
 
 ## Questions
 
-1. What is an advantage of having strong inductive bias? Why do we want this?
+1. ??? What is an advantage of having strong inductive bias? Why do we want this?
 2.
 3.
 
 ## Critical Analysis
-
+Having its one month anniversary a few days ago, this paper is still very fresh and new to the world of AI/machine learning, but I can see it sticking around for some time. This "hybridization" of the attention layer has already posted some great results in the experiments run in this study where it has a better accuracy than most models and runs much faster and uses less memory than a baseline transformer model.
 
 
 ## References
