@@ -1,30 +1,30 @@
 # Moving Average Equipped Gated Attention
 
-### Introduction
+## Background
 
 
 
-### EMA Combination
+## EMA Combination
 
 
 
-###
+##
 
 
 
-###
+##
 
 
 
-### MEGA Blocks
+## MEGA Blocks
 
 
 
-### MEGA with Linear Complexity
+## MEGA with Linear Complexity
 
 
 
-### Experiments
+## Experiments
 
 
 
@@ -36,9 +36,9 @@
 
 
 
-### Critical Analysis
+## Critical Analysis
 
 
 
-### References
+## References
 
