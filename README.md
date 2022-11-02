@@ -14,7 +14,7 @@
 
 
 ## EMA Combination
-> Why?
+> Why combine attention head with EMA?
 * EMA and attention mechanisms each have their own limitations
 * Exponential Moving Average (EMA) captures local dependencies that exponentially decay over time
 * Combination allows us to leverage their strengths to complement each other
@@ -27,6 +27,7 @@
 ![GitHub Logo](/Images/Damped.png)
 * Learnable coefficients
 * Develop MEGA mechanism by integrating the EMA with a variant of the single-head gated attention
+* Extend the shape of α and δ from one-dimensional vector to two-dimensional matrix
 ![GitHub Logo](/Images/MEGA.png)
 
 
