@@ -36,6 +36,7 @@
 ## MEGA with Linear Complexity
 ![GitHub Logo](/Images/MEGA_Chunk.png)
 * Introduce MEGA-chunk, a variant of MEGA with linear complexity, which applies attention to each local chunk of fixed length
+* Mega chunk enjoys linear time and space complexity by performing chunk-wise attention
 * First, split the sequences of queries, keys, and values into chunks of length c
 * Attention operation is applied to each chunk, yielding linear complexity
 * However, this method loses contextual information from other chunks, but the EMA sub-layer in MEGA captures local contextual information near each token whose outputs are used as the inputs to the attention sub-layer
