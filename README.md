@@ -19,6 +19,7 @@
 * Exponential Moving Average (EMA) captures local dependencies that exponentially decay over time
 * Combination allows us to leverage their strengths to complement each other
 * The combined model enjoys the benefit from strong inductive bias and maintains the capacity to learn complex dependency patterns.
+![GitHub Logo](/Images/EMA.png)
 
 
 ## Multi-dimensional Damped EMA
