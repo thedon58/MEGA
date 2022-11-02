@@ -10,15 +10,16 @@
 1. Weak inductive bias
 2. Quadratic computational complexity
 
-![GitHub Logo](/Images/MEGA.png)
+
 
 
 ## EMA Combination
+> Why?
 
 
 
-##
-
+## Multi-dimensional Damped EMA
+![GitHub Logo](/Images/MEGA.png)
 
 
 ##
