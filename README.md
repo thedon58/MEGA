@@ -23,8 +23,8 @@
 
 ## Multi-dimensional Damped EMA
 * Modification of the standard exponential moving average to imporve flexibility and capacity
-![GitHub Logo](/Images/Damped.png)
 * The relaxing of the coupled weights of the previous and current observations
+![GitHub Logo](/Images/Damped.png)
 * Learnable coefficients
 * Develop MEGA mechanism by integrating the EMA with a variant of the single-head gated attention
 ![GitHub Logo](/Images/MEGA.png)
