@@ -25,7 +25,7 @@
 
 
 ## MEGA with Linear Complexity
-
+![GitHub Logo](/Images/MEGA_Chunk.png)
 
 
 ## Experiments
