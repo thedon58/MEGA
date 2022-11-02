@@ -20,8 +20,11 @@
 * Combination allows us to leverage their strengths to complement each other
 * The combined model enjoys the benefit from strong inductive bias and maintains the capacity to learn complex dependency patterns
 * ![GitHub Logo](/Images/EMA.png)
-
-
+## Question 1
+- Why do we want to use MEGA to get a stronger inductive bias?
+***
+## Question 1 Answer
+- Inductive biases play an important role in the ability of machine learning models to generalize to the unseen data. A strong inductive bias can lead our model to converge to the global optimum. On the other hand, a weak inductive bias can cause the model to find only the local optima and be greatly affected by random changes in the initial states.
 ## Multi-dimensional Damped EMA
 * Modification of the standard exponential moving average to improve flexibility and capacity
 * The relaxing of the coupled weights of the previous and current observations
@@ -71,14 +74,11 @@
 ## Critical Analysis
 Having its one month anniversary a few days ago, this paper is still very fresh and new to the world of AI/machine learning, but I can see it sticking around for some time. This "hybridization" of the attention layer has already posted some great results in the experiments run in this study where it has a better accuracy than most models and runs much faster and uses less memory than a baseline transformer model.
 
-## Questions
-
-1. Why do we want to use MEGA to get a stronger inductive bias?
-2. Does this relate to anything you may have seen before? (HINT: GRUs, Flash, S4)
+## Question 2
+- Does this relate to anything you may have seen before? (HINT: GRUs, Flash, S4)
 ***
-## Question Answers
-1. Inductive biases play an important role in the ability of machine learning models to generalize to the unseen data. A strong inductive bias can lead our model to converge to the global optimum. On the other hand, a weak inductive bias can cause the model to find only the local optima and be greatly affected by random changes in the initial states.
-2. (GRU) The main difference is that in a GRU the two gates are applied between the hidden states of the current and previous timesteps, while in Mega they are applied between the outputs from EMA and gated attention sub-layers. (Flash) The computation of the shared representation Z, together with the sequences of queries, keys and values are inspired from GAU in Flash. (S4) The multi-dimensional damped EMA can be seen as a simplified variant of a state space model. From this perspective, Mega is also closely related to S4, a state space model with structured state matrices. the parameter initialization in Mega does not rely on the HiPPO framework, while S4 leverages it.
+## Question 2 Answer
+- (GRU) The main difference is that in a GRU the two gates are applied between the hidden states of the current and previous timesteps, while in Mega they are applied between the outputs from EMA and gated attention sub-layers. (Flash) The computation of the shared representation Z, together with the sequences of queries, keys and values are inspired from GAU in Flash. (S4) The multi-dimensional damped EMA can be seen as a simplified variant of a state space model. From this perspective, Mega is also closely related to S4, a state space model with structured state matrices. the parameter initialization in Mega does not rely on the HiPPO framework, while S4 leverages it.
 
 ## Code Demonstration
 
