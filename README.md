@@ -118,7 +118,59 @@ class MegaLayer(nn.Module):
         .
         .
 ```
+```
+class Mega(nn.Module):
+    def __init__(
+        self,
+        *,
+        dim,
+        num_tokens,
+        depth,
+        ff_mult = 2,
+        pre_norm = False,
+        **kwargs
+    ):
+        super().__init__()
+        self.token_emb = nn.Embedding(num_tokens, dim)
+        self.pre_norm = pre_norm
 
+        self.layers = nn.ModuleList([])
+        for _ in range(depth):
+            self.layers.append(nn.ModuleList([
+                MegaLayer(dim = dim, **kwargs),
+                nn.LayerNorm(dim),
+                FeedForward(dim = dim, ff_mult = ff_mult),
+                nn.LayerNorm(dim)
+            ]))
+
+        self.to_logits = nn.Sequential(
+            nn.LayerNorm(dim) if pre_norm else nn.Identity(),
+            nn.Linear(dim, num_tokens)
+        )
+
+    def forward(self, x):
+        pre_norm = self.pre_norm
+        post_norm = not self.pre_norm
+
+        x = self.token_emb(x)
+
+        for mega_layer, mega_norm, ff, ff_norm in self.layers:
+            mega_maybe_prenorm = mega_norm if pre_norm else identity
+            ff_maybe_prenorm = ff_norm if pre_norm else identity
+
+            mega_maybe_postnorm = mega_norm if post_norm else identity
+            ff_maybe_postnorm = ff_norm if post_norm else identity
+
+            x = mega_layer(mega_maybe_prenorm(x), x)
+
+            x = mega_maybe_postnorm(x)
+
+            x = ff(ff_maybe_prenorm(x)) + x
+
+            x = ff_maybe_postnorm(x)
+
+        return self.to_logits(x)
+```
 ## References
 * https://arxiv.org/abs/2209.10655
 * https://github.com/lucidrains/Mega-pytorch
