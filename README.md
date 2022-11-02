@@ -80,4 +80,4 @@ https://github.com/thedon58/MEGA/blob/main/Code%20Example.ipynb
 * https://github.com/lucidrains/Mega-pytorch
 * https://twitter.com/violet_zct
 * https://strathprints.strath.ac.uk/25635/
-* 
+* https://github.com/facebookresearch/mega
