@@ -56,6 +56,8 @@
 
 #### Image Classification
 * 1,280,000 training images & 50,000 validation images from 1,000 classes
+* Top-1 accuracy on the validation set
+* Experiment mostly followed DeiT's approach of applying several data augmentation and regularization methods that facilitate the training process and MEGA still outperformed DeiT
 ![GitHub Logo](/Images/ImageClass.png)
 
 ## Code Demonstration
