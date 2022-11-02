@@ -7,7 +7,6 @@
 
 ![GitHub Logo](/Images/MEGA.png)
 
-/Users/donaldkane/Desktop/MEGA/Images/MEGA.png
 
 ## EMA Combination
 
