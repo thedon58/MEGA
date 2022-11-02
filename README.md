@@ -34,7 +34,7 @@
 * ![GitHub Logo](/Images/QKV.png)
 
 ## MEGA with Linear Complexity
-
+* Introduce MEGA-chunk, a variant of MEGA with linear complexity, which applies attention to each local chunk of fixed length c
 ![GitHub Logo](/Images/MEGA_Chunk.png)
 
 
