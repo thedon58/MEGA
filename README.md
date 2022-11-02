@@ -19,6 +19,8 @@
 
 
 ## Multi-dimensional Damped EMA
+* Learnable coefficients
+* Develop MEGA mechanism by integrating the EMA with a variant of the single-head gated attention
 ![GitHub Logo](/Images/MEGA.png)
 
 
@@ -31,6 +33,7 @@
 
 
 ## MEGA with Linear Complexity
+
 ![GitHub Logo](/Images/MEGA_Chunk.png)
 
 
