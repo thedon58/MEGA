@@ -67,7 +67,7 @@ https://github.com/thedon58/MEGA/blob/main/Code%20Example.ipynb
 
 ## Questions
 
-1.
+1. What is an advantage of having strong inductive bias? Why do we want this?
 2.
 3.
 
