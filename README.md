@@ -8,7 +8,8 @@
 > Reason
 * MEGA was proposed to combat the attention mechanism's two common drawbacks:
 1. Weak inductive bias
-2. Quadratic computational complexity
+a. test
+3. Quadratic computational complexity
 
 ![GitHub Logo](/Images/XFM.png)
 
