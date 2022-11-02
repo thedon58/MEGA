@@ -27,14 +27,6 @@
 ![GitHub Logo](/Images/MEGA.png)
 
 
-##
-
-
-
-## MEGA Blocks
-
-
-
 ## MEGA with Linear Complexity
 
 ![GitHub Logo](/Images/MEGA_Chunk.png)
