@@ -10,7 +10,7 @@
 1. Weak inductive bias
 2. Quadratic computational complexity
 
-
+![GitHub Logo](/Images/XFM.png)
 
 
 ## EMA Combination
