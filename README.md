@@ -15,7 +15,7 @@
 
 ## EMA Combination
 > Why?
-
+* Exponential Moving Average (EMA) captures local dependencies that exponentially decay over time
 
 
 ## Multi-dimensional Damped EMA
