@@ -43,7 +43,12 @@
 
 
 ## Experiments
-
+> Types of Experiments Ran:
+* Long-Context Sequence Modeling
+* Raw Speech Classification
+* Auto-regressive Language Modeling
+* Neural Machine Translation
+* Image Classification
 
 
 #### Long-Context Sequence Modeling
