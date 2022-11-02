@@ -43,7 +43,7 @@
 
 
 ## Experiments
-> Types of Experiments Ran:
+> Types of Experiments:
 * Long-Context Sequence Modeling
 * Raw Speech Classification
 * Auto-regressive Language Modeling
