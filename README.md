@@ -5,6 +5,10 @@
 > Definition
 * A simple, theoretically grounded, single-head gated attention mechanism equiped with (exponential) moving average to incorporate inductive bias of position-aware local dependencies into the position-agnostic attention mechanism.
 
+> Reason
+MEGA was proposed to combat the attention mechanism's two common drawbacks
+* Weak inductive bias
+* Quadratic computational complexity
 
 ![GitHub Logo](/Images/MEGA.png)
 
