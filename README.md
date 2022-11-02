@@ -57,6 +57,12 @@
 https://github.com/thedon58/MEGA/blob/main/Code%20Example.ipynb
 
 
+## Questions
+
+1.
+2.
+3.
+
 ## Critical Analysis
 
 
