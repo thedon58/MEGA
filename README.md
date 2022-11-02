@@ -23,7 +23,7 @@
 
 
 ## Multi-dimensional Damped EMA
-* Modification of the standard exponential moving average to imporve flexibility and capacity
+* Modification of the standard exponential moving average to improve flexibility and capacity
 * The relaxing of the coupled weights of the previous and current observations
 ![GitHub Logo](/Images/Damped.png)
 * Learnable coefficients
