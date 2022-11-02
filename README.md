@@ -56,7 +56,7 @@
 
 #### Image Classification
 * 1,280,000 training images & 50,000 validation images from 1,000 classes
-
+![GitHub Logo](/Images/ImageClass.png)
 
 ## Code Demonstration
 
