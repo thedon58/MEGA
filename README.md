@@ -31,7 +31,7 @@
 * Extend the shape of α and δ from one-dimensional vector to two-dimensional matrix
 ![GitHub Logo](/Images/MEGA.png)
 * Query and Key sequences are computed by applying scalars and offsets to **Z** while value sequence is from the original **X**
-
+![GitHub Logo](/Images/QKV.png)
 
 ## MEGA with Linear Complexity
 
