@@ -68,15 +68,18 @@
 
 ## Questions
 
-1. 
-2.
-3.
+1. Why do we want to use MEGA to get a stronger inductive bias?
+2. 
 
 ## Critical Analysis
 Having its one month anniversary a few days ago, this paper is still very fresh and new to the world of AI/machine learning, but I can see it sticking around for some time. This "hybridization" of the attention layer has already posted some great results in the experiments run in this study where it has a better accuracy than most models and runs much faster and uses less memory than a baseline transformer model.
 ***
 ![GitHub Logo](/Images/Tweet.png)
 ***
+
+## Question Answers
+1. Inductive biases play an important role in the ability of machine learning models to generalize to the unseen data. A strong inductive bias can lead our model to converge to the global optimum. On the other hand, a weak inductive bias can cause the model to find only the local optima and be greatly affected by random changes in the initial states.
+2. (MORE OPINION BASED)
 
 ## Code Demonstration
 
