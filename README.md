@@ -68,7 +68,40 @@
 ## Code Demonstration
 
 https://github.com/thedon58/MEGA/blob/main/Code%20Example.ipynb
+> Sample Code
+```
+class MegaLayer(nn.Module):
+    def __init__(
+        self,
+        *,
+        dim = 128,
+        ema_heads = 16,
+        attn_dim_qk = 64,
+        attn_dim_value = 256,
+        laplacian_attn_fn = False,
+        causal = True,
+        ema_dim_head = None
+    ):
+        super().__init__()
 
+        self.single_headed_attn = SingleHeadedAttention(
+            dim = dim,
+            dim_qk = attn_dim_qk,
+            dim_value = attn_dim_value,
+            causal = causal,
+            laplacian_attn_fn = laplacian_attn_fn
+        )
+
+        self.multi_headed_ema = MultiHeadedEMA(
+            dim = dim,
+            heads = ema_heads,
+            bidirectional = not causal,
+            dim_head = ema_dim_head
+        )
+        .
+        .
+        .
+```
 
 ## Questions
 
