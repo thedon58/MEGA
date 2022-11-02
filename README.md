@@ -105,7 +105,7 @@ class MegaLayer(nn.Module):
 
 ## Questions
 
-1. ??? What is an advantage of having strong inductive bias? Why do we want this?
+1. 
 2.
 3.
 
