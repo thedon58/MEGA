@@ -78,7 +78,7 @@ https://github.com/thedon58/MEGA/blob/main/Code%20Example.ipynb
 
 ## Critical Analysis
 Having its one month anniversary a few days ago, this paper is still very fresh and new to the world of AI/machine learning, but I can see it sticking around for some time. This "hybridization" of the attention layer has already posted some great results in the experiments run in this study where it has a better accuracy than most models and runs much faster and uses less memory than a baseline transformer model.
-
+![GitHub Logo](/Images/Tweet.png)
 
 ## References
 * https://arxiv.org/abs/2209.10655
