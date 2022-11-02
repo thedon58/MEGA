@@ -46,7 +46,12 @@
 * Attention operation is applied to each chunk, yielding linear complexity
 * However, this method loses contextual information from other chunks, but the EMA sub-layer in MEGA captures local contextual information near each token whose outputs are used as the inputs to the attention sub-layer
 
-
+***
+#### Question 2
+- Does this relate to anything you may have seen before? (HINT: GRUs, Flash, S4)
+#### Question 2 Answer
+- (GRU) The main difference is that in a GRU the two gates are applied between the hidden states of the current and previous timesteps, while in Mega they are applied between the outputs from EMA and gated attention sub-layers. (Flash) The computation of the shared representation Z, together with the sequences of queries, keys and values are inspired from GAU in Flash. (S4) The multi-dimensional damped EMA can be seen as a simplified variant of a state space model. From this perspective, Mega is also closely related to S4, a state space model with structured state matrices. the parameter initialization in Mega does not rely on the HiPPO framework, while S4 leverages it.
+***
 
 ## Experiments
 > Types of Experiments:
@@ -64,12 +69,7 @@
 * The speed-up comes from switching to single-head attention from multi-head
 
 ![GitHub Logo](/Images/LRA.png)
-***
-#### Question 2
-- Does this relate to anything you may have seen before? (HINT: GRUs, Flash, S4)
-#### Question 2 Answer
-- (GRU) The main difference is that in a GRU the two gates are applied between the hidden states of the current and previous timesteps, while in Mega they are applied between the outputs from EMA and gated attention sub-layers. (Flash) The computation of the shared representation Z, together with the sequences of queries, keys and values are inspired from GAU in Flash. (S4) The multi-dimensional damped EMA can be seen as a simplified variant of a state space model. From this perspective, Mega is also closely related to S4, a state space model with structured state matrices. the parameter initialization in Mega does not rely on the HiPPO framework, while S4 leverages it.
-***
+
 
 #### Image Classification
 * 1,280,000 training images & 50,000 validation images from 1,000 classes
